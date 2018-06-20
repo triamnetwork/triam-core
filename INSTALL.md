@@ -58,8 +58,8 @@ See [INSTALL-Windows.md](INSTALL-Windows.md)
 
 ## Basic Installation
 
-- `git clone https://github.com/stellar/stellar-core.git`
-- `cd stellar-core`
+- `git clone https://github.com/triamnetwork/triam-core.git`
+- `cd triam-core`
 - `git submodule init`
 - `git submodule update`
 - Type `./autogen.sh`.
