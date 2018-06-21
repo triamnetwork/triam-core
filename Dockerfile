@@ -1,7 +1,8 @@
 # Use ubuntu image
-FROM ubuntu
+FROM ubuntu:16.04
 
 # install necessary dependencies
+RUN apt-get update
 RUN apt-get install software-properties-common python-software-properties
 RUN add-apt-repository ppa:ubuntu-toolchain-r/test
 RUN apt-get update
