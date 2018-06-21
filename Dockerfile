@@ -2,6 +2,7 @@
 FROM ubuntu
 
 # install necessary dependencies
+RUN apt-get install software-properties-common python-software-properties
 RUN add-apt-repository ppa:ubuntu-toolchain-r/test
 RUN apt-get update
 RUN apt-get install -y git build-essential pkg-config autoconf automake libtool bison flex libpq-dev clang++-3.5 gcc-4.9 g++-4.9 cpp-4.9 curl unzip
